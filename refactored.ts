@@ -20,11 +20,11 @@ const reportTitles = {
 };
 
 const Expenses = () => [
-  { type: type.BREAKFAST, amount: 15.2 },
-  { type: type.BREAKFAST, amount: 28.1 },
-  { type: type.LUNCH, amount: 10.2 },
-  { type: type.DINNER, amount: 16.0 },
-  { type: type.DINNER, amount: 120.2 },
+  { type: 1, amount: 15.2 },
+  { type: 1, amount: 28.1 },
+  { type: 2, amount: 10.2 },
+  { type: 3, amount: 16.0 },
+  { type: 3, amount: 120.2 },
 ];
 
 interface outputType {
