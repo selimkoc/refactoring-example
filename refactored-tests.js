@@ -3,8 +3,8 @@ const { type, typeGroup, typeInfo, typeGroupInfo, reportTitles, ExpensesLibrary 
 /** TEST DATA */
 
 const ExpensesTestData1 = () => [
-  { type: type.LUNCH, amount: 10.2 },
-  { type: type.DINNER, amount: 16.0 },
+  { type: 2, amount: 10.2 },
+  { type: 3, amount: 16.0 },
 ];
 
 const ExpensesTestData1Total = 26.2;
@@ -13,14 +13,14 @@ const ExpensesTestData1Rentals = 0;
 
 
 const ExpensesTestData2 = () => [
-  { type: type.BREAKFAST, amount: 15.2 },
-  { type: type.BREAKFAST, amount: 28.1 },
-  { type: type.LUNCH, amount: 10.2 },
-  { type: type.LUNCH, amount: 25.2 },
-  { type: type.DINNER, amount: 15.0 },
-  { type: type.DINNER, amount: 100.5 },
-  { type: type.CAR_RENTAL, amount: 150.0 },
-  { type: type.CAR_RENTAL, amount: 175.5 },
+  { type: 1, amount: 15.2 },
+  { type: 1, amount: 28.1 },
+  { type: 2, amount: 10.2 },
+  { type: 2, amount: 25.2 },
+  { type: 3, amount: 15.0 },
+  { type: 3, amount: 100.5 },
+  { type: 4, amount: 150.0 },
+  { type: 4, amount: 175.5 },
 ];
 
 const ExpensesTestData2Total = 519.7;
