@@ -18,3 +18,5 @@ Simple example of refactoring legacy Javascript (Node.js) code to OOP, Typescrip
 8. I added output parameter to save all output related data to the class. For example total expenses and group expenses and individual messages for expenses.
 
 9. I tried to use private variables and methods for the Class but replit gave error when I added # character to make some of the methods private. Normally I would prefer making those methods, variables private : output, expenses, expense, initExpenses, generateOutput, setOutputProps,  setExpenseProps, setOverExpensesMarker
+
+10. I changed input (const Expenses) values from type constant to actual integer values, e.g. type.BREAKFAST to 1, as it is unlogical to receive input from an output resource with a local constant variable( type )
