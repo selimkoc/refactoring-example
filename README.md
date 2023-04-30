@@ -1,5 +1,5 @@
 # refactoringJavascriptCode
-Simple example of refactoring legacy Javascript (Node.js) code to OOP, Typescript Code
+Simple example of refactoring legacy Javascript (Node.js) code to OOP, Typescript Code and Jest for testing.
 
 1. Switch statement completely removed. Instead types are grouped by Meal and Rentals. Adding new types for those Meals or for those groups is possible. For example HOTEL_RENTAL can be added to types and total rental expenses can be calculated automatically. For Groups, Transportation, Consultancy expenses can be added as an example. No need to modify the Class for adding new type or groups.
 
